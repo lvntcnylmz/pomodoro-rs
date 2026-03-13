@@ -19,7 +19,7 @@ A minimal, keyboard-driven Pomodoro timer for the terminal — built with Rust a
 ### From source
 
 ```bash
-git clone https://github.com/you/pomodoro
+git clone https://github.com/lvntcnylmz/pomodoro-rs
 cd pomodoro
 cargo build --release
 ./target/release/pomodoro
