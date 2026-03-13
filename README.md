@@ -2,6 +2,8 @@
 
 A minimal, keyboard-driven Pomodoro timer for the terminal — built with Rust and [Ratatui](https://ratatui.rs)
 
+![](./screenshot.png)
+
 ## Features
 
 - **Pixel-font clock** — large block-character digits that scale with your terminal height
@@ -31,21 +33,21 @@ cargo build --release
 
 ## Usage
 
-| Key | Action |
-|-----|--------|
-| `Space` | Start / Pause |
-| `s` | Skip current phase |
-| `r` | Reset everything |
-| `q` / `Esc` | Quit |
+| Key         | Action             |
+| ----------- | ------------------ |
+| `Space`     | Start / Pause      |
+| `s`         | Skip current phase |
+| `r`         | Reset everything   |
+| `q` / `Esc` | Quit               |
 
 ## Defaults
 
-| Setting | Duration |
-|---------|----------|
-| Work | 25 min |
-| Short break | 5 min |
-| Long break | 15 min |
-| Cycles before long break | 4 |
+| Setting                  | Duration |
+| ------------------------ | -------- |
+| Work                     | 25 min   |
+| Short break              | 5 min    |
+| Long break               | 15 min   |
+| Cycles before long break | 4        |
 
 ## Project structure
 
