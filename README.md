@@ -22,7 +22,7 @@ A minimal, keyboard-driven Pomodoro timer for the terminal — built with Rust a
 git clone https://github.com/lvntcnylmz/pomodoro-rs
 cd pomodoro
 cargo build --release
-./target/release/pomodoro
+./target/release/pomo-rs
 ```
 
 ### Requirements
